@@ -205,16 +205,10 @@ figure {
   margin: 0 0 1rem;
 }
 
-.img-movie-shots {
-  max-width: 250px;
-  height: auto;
-}
-
 img {
   vertical-align: middle;
   border-style: none;
 }
-
 
 svg:not(:root) {
   overflow: hidden;
@@ -487,8 +481,10 @@ mark,
   max-width: 100%;
   height: auto;
 }
-
-
+.img-movie-shots {
+  max-width: 250px;
+  height: auto;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
